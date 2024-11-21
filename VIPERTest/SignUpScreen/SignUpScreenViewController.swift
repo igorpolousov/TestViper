@@ -1,5 +1,5 @@
 //
-//  WelcomeScreenViewController.swift
+//  SignUpScreenViewController.swift
 //  VIPERTest
 //
 //  Created by Igor Polousov on 21.11.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class WelcomeScreenViewController: UIViewController {
+class SignUpScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
