@@ -24,6 +24,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Delete user">
                                     <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="deleteUserBtnActionWithSesnder:" destination="UVW-bk-Eny" eventType="touchUpInside" id="lZs-mb-nkq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifq-nW-MEo">
                                 <rect key="frame" x="299" y="783" width="78" height="35"/>
@@ -32,6 +35,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Logout">
                                     <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="logoutBtnActionWithSender:" destination="UVW-bk-Eny" eventType="touchUpInside" id="V1H-yA-2ev"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqR-65-iR4">
                                 <rect key="frame" x="116" y="208" width="160" height="48"/>
